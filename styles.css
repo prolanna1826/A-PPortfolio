@@ -189,13 +189,17 @@ p{ margin: 10px 0; color: var(--muted); }
 .media{
   display:grid;
   gap: 10px;
+  justify-items: center;
 }
 .media img{
   width:100%;
+  max-width: 100%;
   height:auto;
   border-radius: 14px;
   border: 1px solid var(--line);
   background: rgba(255,255,255,.02);
+  display: block;
+  margin: 0 auto;
 }
 iframe{
   width: 100%;
