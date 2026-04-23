@@ -4,8 +4,359 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>A&P ePortfolio | Nervous System</title>
+  <meta name="description" content="Nervous system ePortfolio page."/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
-<body contenteditable="true">
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true"><span>AP</span></div>
+        <div>
+          <div style="font-size:14px;">A&P ePortfolio</div>
+          <div class="kicker" style="letter-spacing:.14em;"></div>
+        </div>
+      </div>
+      <nav class="navlinks" aria-label="Primary">
+        <a class="pill" data-nav href="index.html">Home</a>
+        <a class="pill" data-nav href="endocrine.html">Endocrine</a>
+        <a class="pill" data-nav href="cardiovascular.html">Cardiovascular</a>
+        <a class="pill" data-nav href="lymphatic.html">Lymphatic</a>
+        <a class="pill" data-nav href="immune.html">Immune</a>
+        <a class="pill" data-nav href="respiratory.html">Respiratory</a>
+        <a class="pill" data-nav href="renal.html">Renal</a>
+        <a class="pill" data-nav href="digestive.html">Digestive</a>
+        <a class="pill" data-nav href="reproductive.html">Reproductive</a>
+        <a class="pill" data-nav href="skeletal.html">Skeletal</a>
+        <a class="pill" data-nav href="integumentary.html">Integumentary</a>
+        <a class="pill active" data-nav href="nervous.html">Nervous</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="kicker">Body System Page</div>
+      <h1>Nervous System</h1>
+
+      <div class="section">
+        <h2>Overview</h2>
+        <p>
+          The nervous system is the body’s main communication and control system. It detects changes inside and outside the body,
+          processes that information, and creates responses. It also plays a major role in homeostasis, movement, sensation,
+          memory, and higher thinking. Because signals in the nervous system travel quickly, this system allows the body to react rapidly to the environment.
+        </p>
+        <p><strong>Major functions of the nervous system:</strong></p>
+        <p>
+          Sensory input<br/>
+          Integration of incoming information<br/>
+          Motor output to muscles and glands<br/>
+          Maintenance of homeostasis<br/>
+          Higher mental functions such as learning, memory, and emotion
+        </p>
+        <p><strong>Two main divisions:</strong></p>
+        <p>
+          Central Nervous System (CNS) = brain and spinal cord<br/>
+          Peripheral Nervous System (PNS) = all nerves and ganglia outside the brain and spinal cord
+        </p>
+        <img src="assets/nervous-overview.jpg" alt="Overview of the nervous system"/>
+      </div>
+
+      <div class="section">
+        <h2>Neurons (Functional Unit)</h2>
+        <p>
+          Neurons are the functional cells of nervous tissue. They receive, process, and transmit electrical signals.
+        </p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Structure</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dendrites</td>
+              <td>Receive incoming signals from sensory receptors or other neurons and carry them toward the cell body</td>
+            </tr>
+            <tr>
+              <td>Cell body (soma)</td>
+              <td>Contains the nucleus and most organelles and acts as the metabolic center of the neuron</td>
+            </tr>
+            <tr>
+              <td>Axon</td>
+              <td>Carries the action potential away from the cell body toward another neuron, muscle, or gland</td>
+            </tr>
+            <tr>
+              <td>Myelin sheath</td>
+              <td>Insulates the axon and speeds up nerve impulse conduction</td>
+            </tr>
+            <tr>
+              <td>Nodes of Ranvier</td>
+              <td>Gaps in the myelin sheath where the action potential is regenerated</td>
+            </tr>
+            <tr>
+              <td>Axon terminals</td>
+              <td>Release neurotransmitters into the synapse</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="media" style="margin-top:12px;">
+          <img src="assets/neuron-labeled.jpg" alt="Neuron diagram"/>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Neuroglia (Supporting Cells)</h2>
+        <p>
+          Neuroglial cells support, protect, nourish, and insulate neurons. They are not the primary signaling cells, but they are essential for normal nervous system function.
+        </p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Cell Type</th>
+              <th>Location</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Astrocytes</td>
+              <td>CNS</td>
+              <td>Support neurons, help form the blood-brain barrier, and regulate the extracellular environment</td>
+            </tr>
+            <tr>
+              <td>Oligodendrocytes</td>
+              <td>CNS</td>
+              <td>Form myelin around CNS axons</td>
+            </tr>
+            <tr>
+              <td>Microglia</td>
+              <td>CNS</td>
+              <td>Act as phagocytic immune cells that remove pathogens and cellular debris</td>
+            </tr>
+            <tr>
+              <td>Ependymal cells</td>
+              <td>CNS</td>
+              <td>Line ventricles and central canal and help produce and circulate cerebrospinal fluid</td>
+            </tr>
+            <tr>
+              <td>Schwann cells</td>
+              <td>PNS</td>
+              <td>Form myelin around peripheral axons and help with repair of damaged peripheral nerves</td>
+            </tr>
+            <tr>
+              <td>Satellite cells</td>
+              <td>PNS</td>
+              <td>Surround neuron cell bodies in ganglia and help regulate the local environment</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Graded Potentials vs. Action Potentials</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Graded Potential</th>
+              <th>Action Potential</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Location</td>
+              <td>Dendrites and cell body</td>
+              <td>Axon hillock, axon, and axon terminals</td>
+            </tr>
+            <tr>
+              <td>Trigger</td>
+              <td>Stimulus or neurotransmitter binding</td>
+              <td>Threshold reached at trigger zone</td>
+            </tr>
+            <tr>
+              <td>Spread</td>
+              <td>Local and decreases with distance</td>
+              <td>Propagates without losing strength</td>
+            </tr>
+            <tr>
+              <td>Summation</td>
+              <td>Yes</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Threshold?</td>
+              <td>No fixed threshold</td>
+              <td>Yes, must be reached</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Action Potential</h2>
+        <p><strong>1. Resting potential:</strong> Neurons are usually at about <strong>-70 mV</strong>, while skeletal muscle fibers are usually at about <strong>-90 mV</strong>. At rest, the inside of the cell is more negative than the outside.</p>
+        <p><strong>2. Depolarization:</strong> Caused by influx of <strong>sodium (Na+)</strong> through voltage-gated channels.</p>
+        <p><strong>3. Peak:</strong> The membrane potential rises to about <strong>+30 mV</strong>.</p>
+        <p><strong>4. Repolarization:</strong> Caused by efflux of <strong>potassium (K+)</strong>.</p>
+        <p><strong>5. Hyperpolarization:</strong> The membrane potential drops below <strong>-70 mV</strong> for a short time.</p>
+        <p><strong>6. Return to resting potential:</strong> Achieved through channel closing, leak channels, and the sodium-potassium pump.</p>
+      </div>
+
+      <div class="section">
+        <h2>Synaptic Transmission</h2>
+        <p>
+          Neurotransmitter is released from <strong>axon terminals / synaptic end bulbs</strong> by <strong>exocytosis</strong>.
+          Calcium enters the presynaptic terminal and triggers synaptic vesicles to fuse with the membrane.
+          The neurotransmitter then binds to <strong>receptors on the postsynaptic membrane</strong>, which causes a <strong>graded potential</strong> in the next cell.
+        </p>
+        <img src="assets/synapse.jpg" alt="Diagram of synaptic transmission"/>
+      </div>
+
+      <div class="section">
+        <h2>Neurotransmitters and Functions</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Neurotransmitter</th>
+              <th>Excitatory/Inhibitory/Modulatory</th>
+              <th>Major Functions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Acetylcholine (ACh)</td>
+              <td>Excitatory or modulatory</td>
+              <td>Skeletal muscle contraction, autonomic signaling, learning and memory</td>
+            </tr>
+            <tr>
+              <td>Norepinephrine (NE)</td>
+              <td>Mostly excitatory/modulatory</td>
+              <td>Alertness, attention, sympathetic responses, stress reactions</td>
+            </tr>
+            <tr>
+              <td>Dopamine (DA)</td>
+              <td>Modulatory</td>
+              <td>Reward, movement control, motivation, mood</td>
+            </tr>
+            <tr>
+              <td>Serotonin (5-HT)</td>
+              <td>Mostly modulatory</td>
+              <td>Mood, appetite, sleep, pain modulation</td>
+            </tr>
+            <tr>
+              <td>GABA</td>
+              <td>Inhibitory</td>
+              <td>Main inhibitory neurotransmitter in the CNS</td>
+            </tr>
+            <tr>
+              <td>Glutamate</td>
+              <td>Excitatory</td>
+              <td>Main excitatory neurotransmitter in the CNS; important in learning and memory</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Regions of the Brain and Their Roles</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Region</th>
+              <th>Main Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Prefrontal cortex (PFC)</td>
+              <td>Decision-making, planning, judgment, working memory, personality</td>
+            </tr>
+            <tr>
+              <td>Hypothalamus</td>
+              <td>Homeostasis, temperature control, hunger, thirst, endocrine regulation</td>
+            </tr>
+            <tr>
+              <td>Anterior cingulate cortex (ACC)</td>
+              <td>Attention, emotion, pain processing, decision-making</td>
+            </tr>
+            <tr>
+              <td>Primary visual cortex</td>
+              <td>Receives and processes visual information</td>
+            </tr>
+            <tr>
+              <td>Primary somatosensory cortex</td>
+              <td>Processes touch, pain, pressure, temperature, and body position</td>
+            </tr>
+            <tr>
+              <td>Primary motor cortex</td>
+              <td>Initiates voluntary movement</td>
+            </tr>
+            <tr>
+              <td>Thalamus</td>
+              <td>Relay station for sensory information heading to the cortex</td>
+            </tr>
+            <tr>
+              <td>Hippocampus</td>
+              <td>Formation of new memories and spatial learning</td>
+            </tr>
+            <tr>
+              <td>Brainstem</td>
+              <td>Controls breathing, heart rate, consciousness, and other basic life functions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Cranial Nerves</h2>
+        <p>
+          1. Olfactory (I) – sensory – smell<br/>
+          2. Optic (II) – sensory – vision<br/>
+          3. Oculomotor (III) – motor – eye movement and pupil constriction<br/>
+          4. Trochlear (IV) – motor – eye movement<br/>
+          5. Trigeminal (V) – both – facial sensation and chewing<br/>
+          6. Abducens (VI) – motor – eye movement<br/>
+          7. Facial (VII) – both – facial expression, taste, tears, saliva<br/>
+          8. Vestibulocochlear (VIII) – sensory – hearing and balance<br/>
+          9. Glossopharyngeal (IX) – both – taste, swallowing, salivation<br/>
+          10. Vagus (X) – both – autonomic control of thoracic and abdominal organs, swallowing, voice<br/>
+          11. Accessory (XI) – motor – neck and shoulder movement<br/>
+          12. Hypoglossal (XII) – motor – tongue movement
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Choroid Plexus</h2>
+        <p><strong>Location:</strong> In the ventricles of the brain</p>
+        <p><strong>Function:</strong> Produces cerebrospinal fluid (CSF)</p>
+        <p><strong>Connection to CSF:</strong> It filters blood plasma to make CSF, which circulates through the ventricles, central canal, and subarachnoid space to protect and cushion the CNS.</p>
+      </div>
+
+      <div class="section">
+        <h2>Clinical Relevance</h2>
+        <p><strong>Stroke:</strong> Interruption of blood flow to brain tissue, causing loss of oxygen and neuronal death.</p>
+        <p><strong>Parkinson’s disease:</strong> Degeneration of dopamine-producing neurons, especially in the substantia nigra, causing tremor, rigidity, and slowed movement.</p>
+        <p><strong>Addiction:</strong> Changes in reward pathways, especially dopamine pathways, leading to craving, tolerance, and compulsive behavior.</p>
+        <p><strong>Multiple sclerosis:</strong> Autoimmune destruction of myelin in the CNS, which slows or blocks nerve conduction.</p>
+      </div>
+
+      <div class="section">
+        <h2>ANS Comic</h2>
+        <p>Upload photos of your ANS comic in this section.</p>
+        <div class="media">
+          <img src="assets/ans-comic.jpg" alt="Autonomic nervous system comic placeholder"/>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Media</h2>
+        <div class="media">
+          <iframe title="Nervous system video" src="https://www.youtube.com/embed/RNLceVI8jcc" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
